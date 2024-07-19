@@ -26,8 +26,8 @@
     </plugins>
 </build>
     <dependency>
-    <groupId>org.sonarsource.javascript</groupId>
-    <artifactId>sonar-javascript-plugin</artifactId>
-    <version>8.9.0.19135</version> <!-- Use the appropriate version -->
-</dependency>
+        <groupId>org.sonarsource.javascript</groupId>
+        <artifactId>sonar-javascript-plugin</artifactId>
+        <version>8.9.0.19135</version> 
+    </dependency>
 </project>
