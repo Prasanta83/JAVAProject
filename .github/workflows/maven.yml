@@ -33,7 +33,10 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Build and test with Maven
         run: mvn clean verify
-
+      
+      - name: Build and test with Maven
+        run: mvn clean verify
+        
       - name: Build and analyze
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
